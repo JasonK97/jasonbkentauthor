@@ -11,7 +11,7 @@ export const StickyHeader = () => {
     <header className={styles.sticky_header}>
       <div className={styles.header_section}>
         {/* Remove this className prop when changing text to a logo */}
-        <Link href='/' className={styles.header_link}>
+        {/* <Link href='/' className={styles.header_link}> */}
           {/* <Image
             className={styles.header_image}
             src={logo}
@@ -20,31 +20,31 @@ export const StickyHeader = () => {
             width={100}
             priority
           /> */}
-          LOGO
-        </Link>
-        <Link href='/' className={styles.header_link}>
-          Home
-        </Link>
+          {/* LOGO
+        </Link> */}
         <Link href='/about' className={styles.header_link}>
           About
-        </Link>
-      </div>
-      
-      <div className={styles.header_section}>
-        <Link href='/products' className={styles.header_link}>
-          Products
         </Link>
         <Link href='/blog' className={styles.header_link}>
           Blog
         </Link>
+        <Link href='/wiki' className={styles.header_link}>
+          Wiki
+        </Link>
+      </div>
+      
+      <div className={styles.header_section}>
+        <Link href='/' className={styles.header_link}>
+          JASON B. KENT
+        </Link>
       </div>
 
       <div className={styles.header_section}>
-        <Link href='#' className={styles.header_link}>
+        {/* <Link href='#' className={styles.header_link}>
           Log In
-        </Link>
+        </Link> */}
         <Link href='#' className={styles.header_link_signup}>
-          Sign Up
+          Sign Up for Newsletter
         </Link>
       </div>
     </header>

@@ -280,6 +280,7 @@
 
 .page_wrapper {
   min-height: 90vh;
+  padding: 10vw 10vh;
 }
 
 .sticky_header {
